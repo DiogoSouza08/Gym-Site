@@ -1,0 +1,126 @@
+
+@media only screen and (min-width: 2560px) {
+ 
+  header {
+    background-size: 85%;
+  }
+
+  .quarta-parte{
+    height: 150%;}
+
+}
+
+@media only screen and (max-width: 768px) {
+ 
+    .img-categories{
+		width: 50%;
+	  }
+
+      .slogan-secundario{
+        font-size: 5vw;
+    }
+
+    .button-planos{
+      padding: 0.8rem 0.8rem;
+  }
+
+}
+
+@media only screen and (max-width: 650px) {
+
+  .terceira-parte{
+		flex-direction: column;
+    height: 72%;
+}
+
+.quem-somos-text{
+  flex-direction: column;
+  font-size: 2.5VW;
+  padding: 3%;
+}
+
+.quem-somos{
+flex-direction: column;
+}
+
+.img-estrutura{
+  width: 100%;
+  }
+
+  .quem-somos-text h4{
+		font-size: 6vw;
+	  }
+	  .quarta-parte{
+      height: 105%;
+      align-items: start;
+      background-image: none;
+      }
+
+      .quinta-parte{
+        height: auto;
+      }
+      .sexta-parte{
+        display: none;
+      }
+    
+     
+  
+      .img-galery{
+        width: 48%;
+    }
+
+    .galeria{
+      font-size: 6vw;
+      padding: 4%;
+    }
+
+    .ver-mais-container{
+      font-size: 5.5vw;
+    }
+
+    	
+	 .plano-title-container{
+    font-size: 6vw;
+   }
+
+   .planos{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+   }
+
+   .button-planos{
+    padding: 0.8rem 0.5rem;
+}
+
+.title-plano{
+  width: auto;
+}
+
+.vantagens{
+  font-size: 3vw;
+
+}
+
+.subtitle{
+  font-size: 4vw;
+}
+
+.title-plano{
+  font-size: 6vw;}
+
+  .plano-title-container{
+
+    top: 1%;
+    padding: 5%;
+
+  }
+
+
+  footer{
+  top: 100%;
+  font-size: 2.6vw;
+  padding: 3.5%;
+  }
+}
