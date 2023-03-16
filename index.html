@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="fade.css">
+    
 </head>
 <body>
     
@@ -28,7 +29,6 @@
                             <li><a href="#categorias">Categorias</a></li>
                             <li><a href="#sobre">Sobre</a></li>
                             <li><a href="#planos">Planos</a></li>
-                            <li><a href="#contatos">Contatos</a></li>
                           </ul>
                         </div>
                       </div>
@@ -62,8 +62,8 @@
             <div class="slogan-secundario">
                 <h2>SUPERE SEUS <SPAN><br>LIMITES!</SPAN></h2>
                     <div class="container-categories">
-                        <div class="container-musculacao-description">
-                        <h3>MUSCULAÇÃO</h3>
+                        <div class="container-musculacao-description animate u--fadeInLeft">
+                            <h3>MUSCULAÇÃO</h3>
                         <p class="description-category">A musculação é uma forma de exercício físico que envolve o uso de pesos, máquinas ou resistência corporal, desenvolver e fortalecer os músculos do corpo.</p>
                         <a href="#planos"><button class="btn">CONTRATE</button></a>
                         </div>
@@ -72,7 +72,7 @@
 
                     <div class="container-categories">
                         <img src="./Imagens/box.webp" alt="" class="img-categories">
-                        <div class="container-box-description">
+                        <div class="container-box-description animate u--fadeInRight">
                         <h3>KICKBOXING</h3>
                         <p class="description-category-kickboxing">O kickboxing é uma forma popular de exercício físico e de defesa pessoal, sendo praticado em academias de artes marciais e competições esportivas.</p>
                         <a href="#planos"><button class="btn">CONTRATE</button></a>
@@ -80,7 +80,7 @@
                     </div>
 
                     <div class="container-categories">
-                        <div class="container-crossfit-description">
+                        <div class="container-crossfit-description animate u--fadeInLeft">
                         <h3>CROSSFIT</h3>
                         <p class="description-category">Crossfit é um tipo de treinamento de força e muito condicionamento físico que utiliza exercícios funcionais em alta intensidade.</p>
                         <a href="#planos"><button class="btn">CONTRATE</button></a>
@@ -92,9 +92,10 @@
         <div class="terceira-parte" id="sobre">
                 <div class="quem-somos">
                             <img src="./Imagens/estrutura.png" alt="" class="img-estrutura">
-                            <div class="quem-somos-text">
+                            <div class="quem-somos-text animate u--fadeInRight">
                             <h4>QUEM SOMOS?</h4>
-                                <p>Nós somos uma academia que oferece uma variedade de opções de treinamento físico, incluindo musculação, kickboxing e crossfit. Nosso objetivo é ajudar os nossos clientes a alcançar seus objetivos de condicionamento físico e melhorar sua saúde geral. Para isso, contamos com profissionais qualificados e experientes, que oferecem treinamento personalizado e orientação especializada para cada um de nossos membros. Além disso, nos preocupamos com a segurança e a qualidade do treinamento, fornecendo equipamentos modernos e seguindo as melhores práticas de segurança. </p>
+                                <p>Nós somos uma academia que oferece uma variedade de opções de treinamento físico, incluindo musculação, kickboxing e crossfit. Nosso objetivo é ajudar os nossos clientes a alcançar seus objetivos de condicionamento físico e melhorar sua saúde geral. Para isso, contamos com profissionais qualificados e experientes.</p><br>
+                                <strong><p><box-icon name='current-location' color='#1e1e1e' ></box-icon> Rua dos Jardins n° 16 - Centro de Guarulhos - SP</p></strong>
                             </div>
                         </div>
                         <!-- conteudo da quarta parte(galeria) -->
@@ -112,7 +113,11 @@
                                 <div class="ver-mais-container">
                                     <P class="simbolo-ver-mais-galery">+</P>
                                 </div>
+
+                                
+                                
                                 <!-- conteudo da quinta parte(planos) -->
+                                
                                 <div class="quinta-parte" id="planos">
                                     <div class="planos">
                                         <Div class="you-can">
@@ -154,6 +159,7 @@
                                             </div>
                                             <div class="button-planos-container"><button class="button-planos">Contrate</button></div>
                                         </div>
+                                        
 
                                        <!-- conteudo da sexta parte(why choose) -->
                         <div class="sexta-parte">
@@ -185,8 +191,13 @@
                             
                             <div class="button-whychoose-container"><button class="button-whychoose">Agende uma visita</button></div>
                             </div>
+                           
+                            
                             </div>
-
+                                    </div>
+                            
+                            
+                        
                         <footer><p>Todos direitos reservados de DsDev.</p> 
                             <div class="icons-footer">
                             <a href="https://github.com/DiogoSouza08"><box-icon name='github' type='logo' color='#ffffff' ></box-icon></a>
@@ -194,8 +205,7 @@
                             <a href="https://api.whatsapp.com/send?phone=5537998255107&text=Ol%C3%A1%20gostaria%20de%20sua%20ajuda%20para%20desenvolver%20uma%20aplica%C3%A7%C3%A3o%20web!"><box-icon name='whatsapp' type='logo' color='#ffffff' ></box-icon></a>                            
                         </footer>
                            
-
-
+                        
         
     </section>
 
@@ -210,6 +220,8 @@
 <script src="script.js"></script>
 <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
 <script>
     // Adiciona o evento de clique aos links do menu
     $('a[href^="#"]').on('click',function (e) {
@@ -242,8 +254,8 @@
 
     $('.toggler').prop('checked', false); // adiciona esta linha para fechar o menu automaticamente após clicar em um item de menu
 });
-
-
   </script>
+
+
   
 </html>

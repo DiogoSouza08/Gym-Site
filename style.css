@@ -568,50 +568,6 @@ footer {
   background-color: #00fe78;
 }
 
-.container {
-  position: relative;
-  height: 100vh;
-  width: 100vw;
-  background: #100b18;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.container:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.content {
-  max-width: 700px;
-  padding: 2rem;
-  position: relative;
-  z-index: 1;
-}
-
-.content h1 {
-  font-size: 4.3rem;
-  margin-bottom: 0.8rem;
-  color: #BC0421;
-  font-family: "Dancing Script", cursive;
-}
-
-.btn:hover {
-  opacity: 0.7;
-}
-
-.nav-container {
-  background-color: #00fe78;
-  width: 100%;
-  position: absolute;
-}
-
 /*  Menu Hamburguer */
 .menu-container {
   position: absolute;
@@ -718,8 +674,8 @@ footer {
 
 .menu > div {
   position: absolute;
-  width: 1600px;
-  height: 1600px;
+  width: 3200px;
+  height: 3200px;
   border-radius: 50%;
   top: 50%;
   left: 50%;
@@ -750,7 +706,7 @@ footer {
   text-decoration: none;
   margin: 0.5rem;
   display: inline-block;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 550;
   text-transform: uppercase;
   color: #7159c1;

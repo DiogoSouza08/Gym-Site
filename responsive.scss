@@ -8,6 +8,10 @@
   .quarta-parte{
     height: 150%;}
 
+    .menu > div > div > ul > li > a{
+      font-size: 4rem;
+    }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -81,7 +85,7 @@ flex-direction: column;
       .sexta-parte{
         display: none;
       }
-    
+   
       .simbolo-ver-mais-galery{
         font-size: 9vw;
       }
