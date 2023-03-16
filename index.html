@@ -10,11 +10,33 @@
     <link rel="stylesheet" href="fade.css">
 </head>
 <body>
+    
     <header>
         <main>
-            <div class="logo-and-button-container animate u--fadeInDown">
+            <div class="logo-and-button-container animate u--fadeInDown" id="home">
                 <p>GymLogo</p>
-                <box-icon name='menu' color='#ffffff' class="menu-icon" ></box-icon>
+                <div class="menu-container">
+                    <input type="checkbox" class="toggler">
+                    <div class="hamburguer">
+                      <div></div>
+                    </div>
+                    <div class="menu">
+                      <div>
+                        <div>
+                          <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#categorias">Categorias</a></li>
+                            <li><a href="#sobre">Sobre</a></li>
+                            <li><a href="#planos">Planos</a></li>
+                            <li><a href="#contatos">Contatos</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              
+              
             </div>
         <div class="contact-container animate u--fadeInDown">
             <div class="contact">
@@ -30,13 +52,20 @@
 
     <section class="conteudo">
         <!-- conteudo da segunda parte(Categorias) -->
-        <div class="segunda-parte">
+        <div class="segunda-parte" id="categorias">
+            <div class="big-letter">
+                <p>SPORT</p>
+            </div>
+            <div class="big-letter2">
+                <p>FITNESS</p>
+            </div>
             <div class="slogan-secundario">
                 <h2>SUPERE SEUS <SPAN><br>LIMITES!</SPAN></h2>
                     <div class="container-categories">
                         <div class="container-musculacao-description">
                         <h3>MUSCULAÇÃO</h3>
-                        <button class="btn">CONTRATE</button>
+                        <p class="description-category">A musculação é uma forma de exercício físico que envolve o uso de pesos, máquinas ou resistência corporal, desenvolver e fortalecer os músculos do corpo.</p>
+                        <a href="#planos"><button class="btn">CONTRATE</button></a>
                         </div>
                             <img src="./Imagens/musculação.webp" alt="" class="img-categories">
                     </div>
@@ -45,25 +74,27 @@
                         <img src="./Imagens/box.webp" alt="" class="img-categories">
                         <div class="container-box-description">
                         <h3>KICKBOXING</h3>
-                        <button class="btn">CONTRATE</button>
+                        <p class="description-category-kickboxing">O kickboxing é uma forma popular de exercício físico e de defesa pessoal, sendo praticado em academias de artes marciais e competições esportivas.</p>
+                        <a href="#planos"><button class="btn">CONTRATE</button></a>
                         </div>
                     </div>
 
                     <div class="container-categories">
                         <div class="container-crossfit-description">
                         <h3>CROSSFIT</h3>
-                        <button class="btn">CONTRATE</button>
+                        <p class="description-category">Crossfit é um tipo de treinamento de força e muito condicionamento físico que utiliza exercícios funcionais em alta intensidade.</p>
+                        <a href="#planos"><button class="btn">CONTRATE</button></a>
                         </div>
                             <img src="./Imagens/crossfit.webp" alt="" class="img-categories">
                     </div>
                     
         <!-- conteudo da terceira parte(quem somos) -->
-        <div class="terceira-parte">
+        <div class="terceira-parte" id="sobre">
                 <div class="quem-somos">
                             <img src="./Imagens/estrutura.png" alt="" class="img-estrutura">
                             <div class="quem-somos-text">
                             <h4>QUEM SOMOS?</h4>
-                                <p>Nós somos uma academia que oferece uma variedade de opções de treinamento físico, incluindo musculação, box e crossfit. Nosso objetivo é ajudar os nossos clientes a alcançar seus objetivos de condicionamento físico e melhorar sua saúde geral. Para isso, contamos com profissionais qualificados e experientes, que oferecem treinamento personalizado e orientação especializada para cada um de nossos membros. Além disso, nos preocupamos com a segurança e a qualidade do treinamento, fornecendo equipamentos modernos e seguindo as melhores práticas de segurança. </p>
+                                <p>Nós somos uma academia que oferece uma variedade de opções de treinamento físico, incluindo musculação, kickboxing e crossfit. Nosso objetivo é ajudar os nossos clientes a alcançar seus objetivos de condicionamento físico e melhorar sua saúde geral. Para isso, contamos com profissionais qualificados e experientes, que oferecem treinamento personalizado e orientação especializada para cada um de nossos membros. Além disso, nos preocupamos com a segurança e a qualidade do treinamento, fornecendo equipamentos modernos e seguindo as melhores práticas de segurança. </p>
                             </div>
                         </div>
                         <!-- conteudo da quarta parte(galeria) -->
@@ -82,8 +113,11 @@
                                     <P class="simbolo-ver-mais-galery">+</P>
                                 </div>
                                 <!-- conteudo da quinta parte(planos) -->
-                                <div class="quinta-parte">
+                                <div class="quinta-parte" id="planos">
                                     <div class="planos">
+                                        <Div class="you-can">
+                                            <p>VOCÊ PODE</p>
+                                            </Div>
                                         <div class="plano-title-container">
                                         <h5>ESCOLHA SEU PLANO</h5>
                                         </div>
@@ -92,7 +126,7 @@
                                             <div class="vantagens">
                                                 <p><box-icon name='check' color='#00fe78' ></box-icon>Área de musculação e aeróbicos</p>
                                                 <p><box-icon name='check' color='#00fe78' ></box-icon>Estacionamento</p>
-                                                <p><box-icon name='check' color='#00fe78' ></box-icon>CrossFit e KickBoxing</p>
+                                                <p><box-icon name='check' color='#00fe78' ></box-icon>Musculação</p>
                                                 <p><box-icon name='check' color='#00fe78' ></box-icon>Acesso Wi-fi</p>
                                                 <p><box-icon name='check' color='#00fe78' ></box-icon>Avaliação Gratuita</p>
                                             </div>
@@ -103,7 +137,7 @@
                                             <div class="vantagens">
                                                 <p><box-icon name='check' color='#00fe78' ></box-icon>Área de musculação e aeróbicos</p>
                                                 <p><box-icon name='check' color='#00fe78' ></box-icon>Estacionamento</p>
-                                                <p><box-icon name='check' color='#00fe78' ></box-icon>CrossFit e KickBoxing</p>
+                                                <p><box-icon name='check' color='#00fe78' ></box-icon>CrossFit e Musculação</p>
                                                 <p><box-icon name='check' color='#00fe78' ></box-icon>Acesso Wi-fi</p>
                                                 <p><box-icon name='check' color='#00fe78' ></box-icon>Avaliação Gratuita</p>
                                             </div>
@@ -114,7 +148,7 @@
                                             <div class="vantagens">
                                                 <p><box-icon name='check' color='#00fe78' ></box-icon>Área de musculação e aeróbicos</p>
                                                 <p><box-icon name='check' color='#00fe78' ></box-icon>Estacionamento</p>
-                                                <p><box-icon name='check' color='#00fe78' ></box-icon>CrossFit e KickBoxing</p>
+                                                <p><box-icon name='check' color='#00fe78' ></box-icon>CrossFit, Musculação e KickBoxing</p>
                                                 <p><box-icon name='check' color='#00fe78' ></box-icon>Acesso Wi-fi</p>
                                                 <p><box-icon name='check' color='#00fe78' ></box-icon>Avaliação Gratuita</p>
                                             </div>
@@ -151,17 +185,13 @@
                             
                             <div class="button-whychoose-container"><button class="button-whychoose">Agende uma visita</button></div>
                             </div>
-                            
-                        
-                       
-                                    
-                        
-                        </div>
+                            </div>
+
                         <footer><p>Todos direitos reservados de DsDev.</p> 
                             <div class="icons-footer">
-                            <box-icon name='github' type='logo' color='#ffffff' ></box-icon>
-                            <box-icon name='instagram' type='logo' color='#ffffff' ></box-icon>
-                            <box-icon name='whatsapp' type='logo' color='#ffffff' ></box-icon>                            </div>
+                            <a href="https://github.com/DiogoSouza08"><box-icon name='github' type='logo' color='#ffffff' ></box-icon></a>
+                            <a href="https://www.instagram.com/dsdev_frontend/"><box-icon name='instagram' type='logo' color='#ffffff' ></box-icon></a>
+                            <a href="https://api.whatsapp.com/send?phone=5537998255107&text=Ol%C3%A1%20gostaria%20de%20sua%20ajuda%20para%20desenvolver%20uma%20aplica%C3%A7%C3%A3o%20web!"><box-icon name='whatsapp' type='logo' color='#ffffff' ></box-icon></a>                            
                         </footer>
                            
 
@@ -177,6 +207,43 @@
 </body>
 
 
-
+<script src="script.js"></script>
 <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    // Adiciona o evento de clique aos links do menu
+    $('a[href^="#"]').on('click',function (e) {
+        e.preventDefault();
+  
+        var target = this.hash;
+        var $target = $(target);
+  
+        // Anima a rolagem da página para a seção correspondente
+        $('html, body').stop().animate({
+            'scrollTop': $target.offset().top
+        }, 900, 'swing', function () {
+            window.location.hash = target;
+        });
+    });
+
+    $('.toggler').prop('checked', false);
+
+    $('a[href^="#"]').on('click', function(e) {
+    e.preventDefault();
+
+    var target = this.hash;
+    var $target = $(target);
+
+    $('html, body').stop().animate({
+        'scrollTop': $target.offset().top
+    }, 900, 'swing', function() {
+        window.location.hash = target;
+    });
+
+    $('.toggler').prop('checked', false); // adiciona esta linha para fechar o menu automaticamente após clicar em um item de menu
+});
+
+
+  </script>
+  
 </html>

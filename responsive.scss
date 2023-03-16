@@ -26,6 +26,8 @@
   .logo-and-button-container{
     padding: 2.5%;
   }
+
+
 }
 
 @media only screen and (max-width: 650px) {
@@ -43,6 +45,17 @@
   align-items: center;
   display: flex;
 }
+
+.description-category{
+
+  font-size: 2vw;
+
+  }
+  .description-category-kickboxing{
+
+  font-size: 2vw;}
+
+
 
 .quem-somos{
 flex-direction: column;
@@ -86,7 +99,9 @@ flex-direction: column;
       font-size: 5.5vw;
     }
 
-    	
+    .you-can{
+      display: none;
+    }
 	 .plano-title-container{
     font-size: 6vw;
    }
