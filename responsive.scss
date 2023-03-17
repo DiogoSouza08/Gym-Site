@@ -8,12 +8,35 @@
   .quarta-parte{
     height: 150%;}
 
+  .quinta-parte{
+    height: 90%;}
+
     .menu > div > div > ul > li > a{
       font-size: 4rem;
     }
+    .button-planos{
+      padding: 2rem 4rem;
+      font-size: 0.9vw;
+    }
+    .button-whychoose{
+      padding: 2rem 4rem;
+      font-size: 0.8vw;
 
 }
+.quem-somos-text h4{
 
+  padding-left: 0;
+  }
+.sexta-parte{
+  
+  height: 105%;
+}
+
+footer{
+  top: 205%;
+  font-size: 0.8vw;
+}
+}
 @media only screen and (max-width: 768px) {
  
     .img-categories{
