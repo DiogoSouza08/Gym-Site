@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @media only screen and (min-width: 2560px) {
   header {
     background-size: 85%;
@@ -115,6 +116,9 @@
   .title-plano {
     width: auto;
   }
+  .localização {
+    font-size: 3vw;
+  }
   .vantagens {
     font-size: 3vw;
   }
@@ -132,13 +136,5 @@
     top: 100%;
     font-size: 2.6vw;
     padding: 3.5%;
-  }
-}
-@media only screen and (max-width: 425px) {
-  .slogan-secundario {
-    padding-top: 32%;
-  }
-  .contact {
-    display: none;
   }
 }/*# sourceMappingURL=responsive.css.map */

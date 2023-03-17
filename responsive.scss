@@ -149,6 +149,10 @@ flex-direction: column;
   width: auto;
 }
 
+.localização{
+  font-size: 3vw;
+}
+
 .vantagens{
   font-size: 3vw;
 
@@ -178,13 +182,3 @@ flex-direction: column;
 
 
 
-@media only screen and (max-width: 425px) {
-  .slogan-secundario{
-    padding-top: 32%;
-  }
-
-  .contact{
-    display: none;
-  }
-
-}
